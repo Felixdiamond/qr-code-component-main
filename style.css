@@ -1,13 +1,16 @@
+.level1 {
+  display: none;
+}
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
 }
-#first {
+#fess121 {
   font-weight: 700;
   font-size: 1.25rem;
   color: hsl(218, 44%, 22%);
 }
-#second {
+#sec0nd {
   font-weight: 400;
   font-size: 13px;
   color: hsl(220, 15%, 55%);
@@ -28,7 +31,7 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-#img {
+#ima6e12 {
   position: relative;
   max-width: 100%;
   height: auto;
@@ -49,17 +52,17 @@ body {
     padding-bottom: 3%;
     box-shadow: 20px;
   }
-  #first {
+  #fess121 {
     font-weight: 700;
     font-size: 1.07rem;
     color: hsl(218, 44%, 22%);
 }
-#second {
+#sec0nd {
     font-weight: 400;
     font-size: 11px;
     color: hsl(220, 15%, 55%);
 }
-#img {
+#ima6e12 {
     position: relative;
     max-width: 100%;
     height: auto;
@@ -82,32 +85,35 @@ body {
         padding-bottom: 3%;
         box-shadow: 20px;
       }
-      #first {
+      #fess121 {
         font-weight: 700;
         font-size: 1.2rem;
         color: hsl(218, 44%, 22%);
     }
-    #second {
+    #sec0nd {
         font-weight: 400;
         font-size: 13px;
         color: hsl(220, 15%, 55%);
     }
-    #img {
+    #ima6e12 {
         position: relative;
         max-width: 100%;
         height: auto;
         border-radius: 15px;
     } 
+    .level1 {
+      display: none;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-    #first {
+    #fess121 {
         font-weight: 700;
         font-size: 1.2rem;
         color: hsl(218, 44%, 22%);
     }
-    #second {
+    #sec0nd {
         font-weight: 400;
         font-size: 13px;
         color: hsl(220, 15%, 55%);
@@ -128,22 +134,25 @@ body {
     .attribution a { 
         color: hsl(228, 45%, 44%); 
     }
-    #img {
+    #ima6e12 {
         position: relative;
         max-width: 100%;
         height: auto;
         border-radius: 15px;
     }
+    .level1 {
+      display: none;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-    #first {
+    #fess121 {
         font-weight: 700;
         font-size: 1.2rem;
         color: hsl(218, 44%, 22%);
     }
-    #second {
+    #sec0nd {
         font-weight: 400;
         font-size: 13px;
         color: hsl(220, 15%, 55%);
@@ -164,11 +173,14 @@ body {
     .attribution a { 
         color: hsl(228, 45%, 44%); 
     }
-    #img {
+    #ima6e12 {
         position: relative;
         max-width: 100%;
         height: auto;
         border-radius: 15px;
+    }
+    .level1 {
+      display: none;
     }
 }
 
@@ -178,12 +190,12 @@ body {
         background-color: hsl(212, 45%, 89%);
         font-family: "Outfit", sans-serif;
       }
-      #first {
+      #fess121 {
         font-weight: 700;
         font-size: 1.25rem;
         color: hsl(218, 44%, 22%);
       }
-      #second {
+      #sec0nd {
         font-weight: 400;
         font-size: 13px;
         color: hsl(220, 15%, 55%);
@@ -204,10 +216,13 @@ body {
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
-      #img {
+      #ima6e12 {
         position: relative;
         max-width: 100%;
         height: auto;
         border-radius: 15px;
+      }
+      .level1 {
+        display: none;
       }
 }
