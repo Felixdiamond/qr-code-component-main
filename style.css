@@ -1,36 +1,213 @@
 body {
-    background-color: hsl(212, 45%, 89%);
-    font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
 }
 #first {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: hsl(218, 44%, 22%);
+}
+#second {
+  font-weight: 400;
+  font-size: 13px;
+  color: hsl(220, 15%, 55%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  width: 22%;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  border-radius: 15px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  box-shadow: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+#img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 320px) {
+  .attribution {
+    font-size: 6px;
+    text-align: center;
+    width: 70%;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    border-radius: 15px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-shadow: 20px;
+  }
+  #first {
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.07rem;
     color: hsl(218, 44%, 22%);
 }
 #second {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 11px;
     color: hsl(220, 15%, 55%);
-}
-.attribution { 
-    font-size: 11px; 
-    text-align: center;
-    width: 22%;
-    background-color: hsl(0, 0%, 100%);
-    position: absolute;
-    left: 40%;
-    top: 10%;
-    border-radius: 15px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    box-shadow: 20px;
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
 }
 #img {
     position: relative;
     max-width: 90%;
     height: auto;
     border-radius: 15px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+    .attribution {
+        font-size: 6px;
+        text-align: center;
+        width: 70%;
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        left: 15%;
+        top: 10%;
+        border-radius: 15px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        box-shadow: 20px;
+      }
+      #first {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: hsl(218, 44%, 22%);
+    }
+    #second {
+        font-weight: 400;
+        font-size: 13px;
+        color: hsl(220, 15%, 55%);
+    }
+    #img {
+        position: relative;
+        max-width: 90%;
+        height: auto;
+        border-radius: 15px;
+    } 
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    #first {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: hsl(218, 44%, 22%);
+    }
+    #second {
+        font-weight: 400;
+        font-size: 13px;
+        color: hsl(220, 15%, 55%);
+    }
+    .attribution { 
+        font-size: 11px; 
+        text-align: center;
+        width: 50%;
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        left: 25%;
+        top: 10%;
+        border-radius: 15px;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        box-shadow: 20px;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    #img {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+    #first {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: hsl(218, 44%, 22%);
+    }
+    #second {
+        font-weight: 400;
+        font-size: 13px;
+        color: hsl(220, 15%, 55%);
+    }
+    .attribution { 
+        font-size: 11px; 
+        text-align: center;
+        width: 30%;
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        left: 35%;
+        top: 10%;
+        border-radius: 15px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        box-shadow: 20px;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    #img {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: "Outfit", sans-serif;
+      }
+      #first {
+        font-weight: 700;
+        font-size: 1.25rem;
+        color: hsl(218, 44%, 22%);
+      }
+      #second {
+        font-weight: 400;
+        font-size: 13px;
+        color: hsl(220, 15%, 55%);
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        width: 22%;
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        left: 40%;
+        top: 10%;
+        border-radius: 15px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        box-shadow: 20px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      #img {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+      }
 }
